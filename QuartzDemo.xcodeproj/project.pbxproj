@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2C7F802438C6C900D75399 /* QDView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C7F7F2438C6C900D75399 /* QDView.m */; };
+		AC2C7F832438ED6300D75399 /* QDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C7F822438ED6300D75399 /* QDViewController.m */; };
 		AC9E82262437EE58008934C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9E82252437EE58008934C3 /* AppDelegate.m */; };
-		AC9E82292437EE58008934C3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9E82282437EE58008934C3 /* SceneDelegate.m */; };
-		AC9E822C2437EE58008934C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9E822B2437EE58008934C3 /* ViewController.m */; };
-		AC9E822F2437EE58008934C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9E822D2437EE58008934C3 /* Main.storyboard */; };
 		AC9E82312437EE5A008934C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9E82302437EE5A008934C3 /* Assets.xcassets */; };
 		AC9E82342437EE5A008934C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9E82322437EE5A008934C3 /* LaunchScreen.storyboard */; };
 		AC9E82372437EE5A008934C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9E82362437EE5A008934C3 /* main.m */; };
+		AC9E82422437F375008934C3 /* UIColor+UIColor_QDRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9E82412437F375008934C3 /* UIColor+UIColor_QDRandom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC2C7F7D2437FE0D00D75399 /* QDConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDConstants.h; sourceTree = "<group>"; };
+		AC2C7F7E2438C6C900D75399 /* QDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDView.h; sourceTree = "<group>"; };
+		AC2C7F7F2438C6C900D75399 /* QDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDView.m; sourceTree = "<group>"; };
+		AC2C7F812438ED6300D75399 /* QDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDViewController.h; sourceTree = "<group>"; };
+		AC2C7F822438ED6300D75399 /* QDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDViewController.m; sourceTree = "<group>"; };
 		AC9E82212437EE58008934C3 /* QuartzDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9E82242437EE58008934C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC9E82252437EE58008934C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC9E82272437EE58008934C3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		AC9E82282437EE58008934C3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		AC9E822A2437EE58008934C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC9E822B2437EE58008934C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AC9E822E2437EE58008934C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC9E82302437EE5A008934C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9E82332437EE5A008934C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9E82352437EE5A008934C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9E82362437EE5A008934C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC9E82402437F375008934C3 /* UIColor+UIColor_QDRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor_QDRandom.h"; sourceTree = "<group>"; };
+		AC9E82412437F375008934C3 /* UIColor+UIColor_QDRandom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor_QDRandom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +63,15 @@
 		AC9E82232437EE58008934C3 /* QuartzDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC2C7F7D2437FE0D00D75399 /* QDConstants.h */,
 				AC9E82242437EE58008934C3 /* AppDelegate.h */,
 				AC9E82252437EE58008934C3 /* AppDelegate.m */,
-				AC9E82272437EE58008934C3 /* SceneDelegate.h */,
-				AC9E82282437EE58008934C3 /* SceneDelegate.m */,
-				AC9E822A2437EE58008934C3 /* ViewController.h */,
-				AC9E822B2437EE58008934C3 /* ViewController.m */,
-				AC9E822D2437EE58008934C3 /* Main.storyboard */,
+				AC2C7F7E2438C6C900D75399 /* QDView.h */,
+				AC2C7F7F2438C6C900D75399 /* QDView.m */,
+				AC2C7F812438ED6300D75399 /* QDViewController.h */,
+				AC2C7F822438ED6300D75399 /* QDViewController.m */,
+				AC9E82402437F375008934C3 /* UIColor+UIColor_QDRandom.h */,
+				AC9E82412437F375008934C3 /* UIColor+UIColor_QDRandom.m */,
 				AC9E82302437EE5A008934C3 /* Assets.xcassets */,
 				AC9E82322437EE5A008934C3 /* LaunchScreen.storyboard */,
 				AC9E82352437EE5A008934C3 /* Info.plist */,
@@ -135,7 +139,6 @@
 			files = (
 				AC9E82342437EE5A008934C3 /* LaunchScreen.storyboard in Resources */,
 				AC9E82312437EE5A008934C3 /* Assets.xcassets in Resources */,
-				AC9E822F2437EE58008934C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +149,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9E822C2437EE58008934C3 /* ViewController.m in Sources */,
+				AC9E82422437F375008934C3 /* UIColor+UIColor_QDRandom.m in Sources */,
 				AC9E82262437EE58008934C3 /* AppDelegate.m in Sources */,
+				AC2C7F832438ED6300D75399 /* QDViewController.m in Sources */,
 				AC9E82372437EE5A008934C3 /* main.m in Sources */,
-				AC9E82292437EE58008934C3 /* SceneDelegate.m in Sources */,
+				AC2C7F802438C6C900D75399 /* QDView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC9E822D2437EE58008934C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC9E822E2437EE58008934C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC9E82322437EE5A008934C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,13 +288,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZ6M9K8H8C;
 				INFOPLIST_FILE = QuartzDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rakhmatulin.QuartzDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,13 +306,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZ6M9K8H8C;
 				INFOPLIST_FILE = QuartzDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rakhmatulin.QuartzDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

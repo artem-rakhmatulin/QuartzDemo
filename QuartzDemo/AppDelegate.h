@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QDViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+- (UIWindow *)window;
 
 @end
 

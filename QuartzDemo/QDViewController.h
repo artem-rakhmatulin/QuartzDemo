@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  QDViewController.h
 //  QuartzDemo
 //
 //  Created by Artem Rakhmatulin on 04/04/2020.
@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QDView.h"
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface QDViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
